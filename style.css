@@ -1,6 +1,9 @@
+body,
+html {
+  margin: 0px;
+}
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -211,6 +214,15 @@ button:hover {
   border-radius: 5px;
   cursor: pointer;
 }
-.footer {
-  height: 50px;
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  margin-bottom: -400px;
+  margin-top: 40px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  height: 100px;
 }
