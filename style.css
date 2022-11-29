@@ -23,8 +23,8 @@ ul {
 .header {
   display: flex;
   padding-top: 20px;
-  padding-left: 300px;
-  padding-right: -400px;
+  padding-left: 100px;
+  padding-right: 100px;
   width: auto;
 }
 .header-left {
@@ -40,13 +40,13 @@ ul {
 .header-right {
   display: flex;
   align-items: center;
-  margin-left: 700px;
+  margin-left: 1000px;
 }
 .hero {
   display: flex;
   padding-top: 60px;
-  padding-left: 300px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
   height: 400px;
   width: auto;
 }
@@ -157,4 +157,20 @@ button:hover {
 .box4 {
   display: flex;
   flex-direction: column;
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+.para {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.author {
+  padding-left: 1000px;
 }
